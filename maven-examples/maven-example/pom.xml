@@ -34,9 +34,9 @@
         <lift.version>3.5.0</lift.version>
         <JavaTestArgs>
             --add-opens=java.base/sun.nio.ch=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false
-            <!-- -Dio.netty.tryReflectionSetAccessible=true
+            -- -Dio.netty.tryReflectionSetAccessible=true
              &#45;&#45;add-exports java.base/sun.util.calendar=ALL-UNNAMED
-             &#45;&#45;add-exports java.base/sun.security.action=ALL-UNNAMED -->
+             &#45;&#45;add-exports java.base/sun.security.action=ALL-UNNAMED
         </JavaTestArgs>
     </properties>
     
